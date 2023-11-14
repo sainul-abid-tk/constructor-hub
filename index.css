@@ -1,0 +1,39 @@
+*{
+    font-family: DM Serif Display;
+    scroll-behavior: smooth;
+}
+.worker1{
+    background-image:linear-gradient(to bottom, rgba(79, 77, 77, 0.5),rgba(10, 10, 10, 0.8)), url('https://thumbs.dreamstime.com/b/electrician-engineer-worker-young-adult-builder-front-fuse-switch-board-46490026.jpg');
+    background-size: cover;
+    color: white;
+}
+.worker2{
+    background-image:linear-gradient(to bottom, rgba(79, 77, 77, 0.5),rgba(10, 10, 10, 0.8)), url('https://thumbs.dreamstime.com/b/plumber-worker-13518798.jpg');
+    background-size: cover;
+    color: white;
+}
+.worker3{
+    background-image:linear-gradient(to bottom, rgba(79, 77, 77, 0.5),rgba(10, 10, 10, 0.8)), url('https://i.pinimg.com/originals/52/b0/65/52b065773d1bc6829c8185dd02c1d307.jpg');
+    background-size: cover;
+    color: white;
+}
+.worker4{
+    background-image:linear-gradient(to bottom, rgba(79, 77, 77, 0.5),rgba(10, 10, 10, 0.8)), url('http://civilcrew.in/images/media/carpentry/carpentry1.png');
+    background-size: cover;
+    color: white;
+}
+.hey{
+    animation: animate 0.1s ease-in-out 0.2s infinite;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+

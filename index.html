@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Document</title>
+</head>
+<body>
+
+  <!-- Home -->
+    <div class="bg-[url('https://planetpress.com.au/wp-content/uploads/landing_page_background.jpg')] bg-cover overflow-hidden " id="home">  
+      <!-- <nav class="flex justify-between mx-6">
+        <div class="flex items-center justify-between">
+          <img src="./black-and-yellow-helmet-and-gear-construction-logo-image-Free-Vector-removebg-preview.png" class="w-24 h-20" alt="">
+        </div>
+        <div class="flex items-center justify-center">
+          <ul class="flex space-x-20">
+            <li class="hover:text-yellow-300 hover:font-bold"><a href="">Home</a></li>
+            <li class="hover:text-yellow-300 hover:font-bold"><a href="">Services</a></li>
+            <li class="hover:text-yellow-300 hover:font-bold"><a href="">About</a></li>
+            <li class="hover:text-yellow-300 hover:font-bold"><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div  class="flex items-center justify-center space-x-5">
+          <button class="border-4-green px-4 py-1  bg-yellow-400 rounded-lg">Sign-up</button>
+          <a href=""><i class="fa-solid fa-user border-4 border-gray-950 rounded-full py-2  px-2"></i></a>
+        </div>
+      </nav> -->
+      <nav>
+        <div class="mx-auto px-4">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+                <!--
+                  Icon when menu is closed.
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <!--
+                  Icon when menu is open.
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <!-- <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"> -->
+              <div class="flex flex-1 sm:flex flex-2 items-center sm:items-stretch justify-center sm:justify-start">
+                <img src="./black-and-yellow-helmet-and-gear-construction-logo-image-Free-Vector-removebg-preview.png" class="w-24 h-20" alt="">
+              </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex items-center justify-center me-8">
+                  <ul class="flex space-x-20">
+                    <li class="hover:text-yellow-300 hover:font-bold"><a href="#home">Home</a></li>
+                    <li class="hover:text-yellow-300 hover:font-bold"><a href="#services">Services</a></li>
+                    <li class="hover:text-yellow-300 hover:font-bold"><a href="#about">About</a></li>
+                    <li class="hover:text-yellow-300 hover:font-bold"><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            <!-- </div> -->
+            <div  class="flex items-center justify-center space-x-3">
+              <button class="border-4-green px-4 py-1  bg-yellow-400 rounded-lg">Sign-up</button>
+              <a href=""><i class="fa-solid fa-user border-4 border-gray-950 rounded-full py-2  px-2"></i></a>
+            </div>
+            </div>
+          </div>
+      </nav>
+        <div class="grid grid-cols-2 h-screen  max-md:grid-cols-1 max-md:mt-12 max-lg:grid-cols-2">
+          <div class="flex flex-col  justify-center">
+            <h1 class="text-6xl font-bold text-black max-lg:text-5xl max-sm:text-4xl">Crafting Your Building Solution One Click Away</h1>
+            <h5 class="text-4xl mt-5 font-bold text-yellow-400 hey max-lg:text-3xl max-sm:text-2xl">Hey,Our workers are near with you !!!</h5>
+            <div class="flex items-center justify-center">
+            <a href=""><img src="./105-1050957_call-now-button-png-white-phone-icon-removebg-preview.png" class="w-72 mt-10 animate-bounce max-lg:w-60 max-sm:w-44"  alt=""></a>
+          </div>
+          </div>
+          <div class="flex items-center max-sm:items-start">
+            <div>
+            <img src="./Contractor-Team-Crop-I-removebg-preview.png" class="w-[900px] h-[500px] max-lg:h-[450px] max-md:h-[380px] max-sm:h-[260px] " alt="">
+          </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Mission Vision values -->
+    
+    <div class="mx-24 mt-24 max-lg:mx-5 max-sm:mx-5 overflow-hidden">
+      <div class="flex max-lg:flex-col max-lg:items-center" data-aos="flip-up" data-aos-easing="linear"
+      data-aos-duration="1000">
+        <div class="w-2/4 max-xl:w-4/6 max-lg:w-full bg-[url('https://housely.com/wp-content/uploads/2016/06/Contractor.jpg')] bg-cover">
+          <img class="hidden max-lg:block " src="https://housely.com/wp-content/uploads/2016/06/Contractor.jpg" alt="">
+        </div>
+        <div class="w-4/6 max-lg:w-full flex flex-col justify-center px-24 py-10 max-lg:px-2 max-lg:py-2 bg-yellow-400">
+          <h1 class="text-3xl font-bold max-lg:text-center max-sm:text-2xl">Mission</h1>
+          <p class="mt-10 text-xl max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, possimus totam quam autem sint ipsum, earum expedita ut, voluptatum obcaecati dolore iusto repellendus non minus voluptatibus adipisci illo cum rem?
+          Optio porro earum in autem dignissimos repudiandae.</p>
+        </div>
+      </div>
+
+      <div class="flex mt-20 max-lg:flex-col max-lg:items-center" data-aos="flip-up" data-aos-easing="linear"
+      data-aos-duration="1000">
+  
+        <div class="w-4/6 max-lg:w-full  flex flex-col justify-center px-24 py-10 max-lg:px-2 max-lg:py-2 bg-yellow-400">
+          <h1 class="text-3xl font-bold max-lg:text-center max-sm:text-2xl">Values</h1>
+          <p class="mt-10 text-xl max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, possimus totam quam autem sint ipsum, earum expedita ut, voluptatum obcaecati dolore iusto repellendus non minus voluptatibus adipisci illo cum rem?
+          Optio porro earum in autem dignissimos repudiandae.</p>
+        </div>
+        <div class="w-2/4 max-xl:w-4/6 max-lg:w-full bg-[url('https://topcontractorsins.com/wp-content/uploads/2018/03/Top-Contractors-construction-insurance.jpeg')] bg-cover">
+          <img class="hidden max-lg:block" src="https://topcontractorsins.com/wp-content/uploads/2018/03/Top-Contractors-construction-insurance.jpeg" alt="">
+        </div>
+      </div>
+
+      <div class="flex mt-20 max-lg:flex-col max-lg:items-center" data-aos="flip-up" data-aos-easing="linear"
+      data-aos-duration="1000">
+        <div class="w-2/4 max-xl:w-4/6 max-lg:w-full  bg-[url('https://www.martininsurance.com/wp-content/uploads/2018/03/construction-1_1.jpg')] bg-cover">
+          <img class="hidden max-lg:block" src="https://www.martininsurance.com/wp-content/uploads/2018/03/construction-1_1.jpg" alt="">
+        </div>
+        <div class="w-4/6 max-lg:w-full flex flex-col justify-center px-24 py-10 max-lg:px-2 max-lg:py-2 bg-yellow-400">
+          <h1 class="text-3xl font-bold max-lg:text-center max-sm:text-2xl">Vision</h1>
+          <p class="mt-10 text-xl max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, possimus totam quam autem sint ipsum, earum expedita ut, voluptatum obcaecati dolore iusto repellendus non minus voluptatibus adipisci illo cum rem?
+          Optio porro earum in autem dignissimos repudiandae.</p>
+        </div>
+      </div>
+       
+    </div>
+<!-- Major services -->
+<div class="grid grid-cols-2 mx-36  mt-24 max-lg:mx-5 max-md:grid-cols-1 overflow-hidden" id="services">
+  <div class="grid me-5 max-md:me-0">
+    <div class="w-full" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+      <img src="https://mccrackingplumbingllc.com/wp-content/uploads/2020/04/Plumbing-Repair.jpg" class=" w-full" alt="">
+    </div>
+    <div class="h-[550px] max-sm:h-[400px] flex flex-col justify-center px-5 mt-5 max-md:mt-0"> 
+      <h1 class="text-4xl font-bold max-sm:text-2xl">Maintenance Services</h1>
+      <p class="mt-12 text-xl max-sm:text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci amet, voluptatum mollitia aperiam rerum dolorum laboriosam, eum, aspernatur commodi dicta veritatis dolores! Debitis suscipit nobis inventore dolorum, magnam architecto! Vitae.
+       </p>
+      <button class="mt-12 border-2 max-sm:text-sm w-48 py-5 px-8 max-sm:py-3  bg-yellow-400 border-yellow-400 hover:bg-black hover:text-white hover:border-black">LEARN MORE</button>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="h-[550px] max-sm:h-[400px] flex flex-col justify-center px-5 bg-black text-white"> 
+      <h1 class="text-4xl font-bold max-sm:text-2xl">Construction Services</h1>
+      <p class="mt-12 text-xl max-sm:text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci amet, voluptatum mollitia aperiam rerum dolorum laboriosam, eum, aspernatur commodi dicta veritatis dolores! Debitis suscipit nobis inventore dolorum, magnam architecto! Vitae.
+       </p>
+      <button class="mt-12 border-2 max-sm:text-sm border-white w-48 py-5 px-8 max-sm:py-3 text-white hover:bg-white hover:text-black">LEARN MORE</button>
+    </div>
+    <div class="w-full mt-5 max-md:mt-0" data-aos="fade-up"
+    data-aos-duration="3000">
+    <img src="https://cdnassets.hw.net/43/75/4d4bcea14eedaacb4cc149e245ef/construction-site-workers.jpg" class=" w-full" alt="">
+    </div>
+  </div>
+</div>
+<!-- Our services -->
+<div class="grid grid-cols-3 overflow-hidden gap-y-16 justify-items-center mt-24 py-10   max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:mx-5">
+  <div class="w-96  max-md:w-80   rounded-t-full transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 ...">
+    <img src="https://d1d81vmw1yvc7o.cloudfront.net/wp-content/uploads/sites/70/2017/06/01204630/bigstock-Electrician-installing-energy-145004402.jpg" class="rounded-t-full" alt="">
+    <div class="text-black px-3 bg-gradient-to-b from-zinc-700 to-black py-4">
+    <h1 class="text-3xl text-center text-yellow-400 font-bold max-sm:text-2xl" data-aos="flip-left" data-aos-duration="3000">Electrical Services</h1>
+    <p class="mt-4 text-xl text-white max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minima incidunt officiis maxime facilis ipsum sapiente tempore id eos! </p>
+  </div>
+  </div>
+
+  <div class="w-96 max-md:w-80 rounded-t-full  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 ...">
+    <img src="https://cdn6.dissolve.com/p/D145_32_104/D145_32_104_1200.jpg" class="rounded-t-full" alt="">
+    <div class="text-black px-3 bg-gradient-to-b from-zinc-700 to-black py-4">
+    <h1 class="text-3xl text-center text-yellow-400 font-bold max-sm:text-2xl" data-aos="flip-left" data-aos-duration="3000">Centring Services</h1>
+    <p class="mt-4 text-xl text-white max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minima incidunt officiis maxime facilis ipsum sapiente tempore id eos! </p>
+  </div>
+  </div>
+
+
+  <div class="w-96 max-md:w-80  rounded-t-full  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 ...">
+    <img src="https://www.swmich.edu/media/website/content-assets/images/general-images/Welding_142949391.jpg" class="rounded-t-full" alt="">
+    <div class="text-black px-3 bg-gradient-to-b from-zinc-700 to-black py-4" >
+    <h1 class="text-3xl text-center text-yellow-400 font-bold max-sm:text-2xl" data-aos="flip-left" data-aos-duration="3000">Welding Services</h1>
+    <p class="mt-4 text-xl text-white max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minima incidunt officiis maxime facilis ipsum sapiente tempore id eos! </p>
+  </div>
+  </div>
+
+
+
+  <div class="w-96 max-md:w-80  rounded-t-full  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 ...">
+    <img src="https://thepaintpeople.com/wp-content/uploads/2017/05/wallpainter.jpg" class="rounded-t-full" alt="">
+    <div class="text-black px-3 bg-gradient-to-b from-zinc-700 to-black py-4">
+    <h1 class="text-3xl text-center text-yellow-400 font-bold max-sm:text-2xl"data-aos="flip-left" data-aos-duration="3000">Painting Services</h1>
+    <p class="mt-4 text-xl text-white max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minima incidunt officiis maxime facilis ipsum sapiente tempore id eos! </p>
+  </div>
+  </div>
+
+  <div class="w-96 max-md:w-80 rounded-t-full  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 ...">
+    <img src="https://thumbs.dreamstime.com/b/plumber-work-bathroom-plumbing-repair-service-assemble-plumber-work-bathroom-plumbing-repair-service-assemble-113995421.jpg" class="rounded-t-full" alt="">
+    <div class="text-black px-3 bg-gradient-to-b from-zinc-700 to-black py-4">
+    <h1 class="text-3xl text-center text-yellow-400 font-bold max-sm:text-2xl"data-aos="flip-left" data-aos-duration="3000">Plumbing Services</h1>
+    <p class="mt-4 text-xl text-white max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minima incidunt officiis maxime facilis ipsum sapiente tempore id eos! </p>
+  </div>
+  </div>
+
+  <div class="w-96 max-md:w-80 rounded-t-full  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 ...">
+    <img src="https://watermark.lovepik.com/photo/20211208/large/lovepik-beautiful-carpenter-worker-polishing-wooden-stool-picture_501667635.jpg" class="rounded-t-full" alt="">
+    <div class="text-black px-3 bg-gradient-to-b from-zinc-700 to-black py-4">
+    <h1 class="text-3xl text-center text-yellow-400 font-bold max-sm:text-2xl"data-aos="flip-left" data-aos-duration="3000">Carpentry Services</h1>
+    <p class="mt-4 text-xl text-white max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minima incidunt officiis maxime facilis ipsum sapiente tempore id eos! </p>
+  </div>
+  </div>
+</div>
+<!-- About -->
+<div class="grid grid-cols-2 overflow-hidden justify-center text-white  mt-24 max-md:grid-cols-1" id="about">
+  
+    <div class="py-10 bg-yellow-400 text-black flex flex-col items-center justify-center px-5  max-md:w-full" >
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" data-aos-easing="linear"
+    data-aos-duration="1000">
+      <h1 class="text-4xl font-bold text-center max-sm:text-2xl">About</h1>
+      <p class="mt-10 text-2xl max-sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam impedit ipsum molestiae repellat atque eaque, fuga similique accusantium perferendis non rem pariatur, ab saepe consequatur nemo doloremque officia hic architecto.
+      Nam odio animi, libero fugit repellendus omnis. Soluta voluptatibus quod aliquid nisi labore adipisci, neque odio quis eos commodi laudantium quasi est ab dolore! Vel aliquam repudiandae aspernatur dolorum provident!</p>
+    </div>
+    </div>
+
+  <div class="text-center flex flex-col items-center justify-center bg-black max-md:py-8">
+    <h1 class="text-4xl font-bold max-sm:text-2xl">The Safe, Guaranteed
+      Solution to Your <span class="text-yellow-400">Building Maintenance</span></h1>
+      <h2 class="text-2xl mt-12 max-sm:text-sm">We offer a variety of income-based services to support vulnerable Building owners. We do this by providing critical Building Maintenance and accessibility modifications to those in need.</h2>
+      <button class="mt-12 border-2 w-48 py-5 px-8 max-sm:py-3 text-black bg-yellow-400 border-yellow-400 hover:bg-black hover:text-white">LEARN MORE</button>
+    </div>
+</div>
+<!-- Our Workers -->
+<div class="mt-20 overflow-hidden">
+<h1 class="text-5xl max-md:text-4xl max-sm:text-3xl  text-center font-bold">Our Workers</h1>
+<div class="grid grid-cols-4 mt-14 justify-items-center max-xl:grid-cols-2 max-xl:gap-y-10 max-sm:grid-cols-1">
+  <div class="w-[330px] h-[500px] max-sm:h-[400px] max-sm:w-[300px] relative worker1 rounded-b-full">
+    <div class="absolute bottom-10 text-center">
+      <h1 class="text-4xl font-bold max-sm:text-3xl">Alex Methew</h1>
+      <h2 class="text-yellow-400 text-3xl mt-2 font-bold max-sm:text-2xl">Electrition</h2>
+      <p class="mt-2 text-xl max-sm:text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius cumque fugiat iusto </p>
+      <div class="text-4xl mt-4 max-sm:text-2xl">
+        <a href=""><i class="fa-brands fa-facebook text-yellow-400 me-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter text-yellow-400 me-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+        <a href=""><i class="fa-brands fa-instagram text-yellow-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-[330px] h-[500px] max-sm:h-[400px] max-sm:w-[300px] relative worker2 rounded-b-full">
+    <div class="absolute bottom-10 text-center ">
+      <h1 class="text-4xl font-bold max-sm:text-3xl">Chris Joseph</h1>
+      <h2 class="text-yellow-400 text-3xl mt-2 font-bold max-sm:text-2xl">Plumber</h2>
+      <p class="mt-2 text-xl max-sm:text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius cumque fugiat iusto </p>
+      <div class="text-4xl mt-4 max-sm:text-2xl">
+        <a href=""><i class="fa-brands fa-facebook text-yellow-400 me-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter text-yellow-400 me-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+        <a href=""><i class="fa-brands fa-instagram text-yellow-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-[330px] h-[500px] max-sm:h-[400px] max-sm:w-[300px] relative worker3 rounded-b-full">
+    <div class="absolute bottom-10 text-center">
+      <h1 class="text-4xl font-bold max-sm:text-3xl">Rashid Ali</h1>
+      <h2 class="text-yellow-400 text-3xl mt-2 font-bold max-sm:text-2xl">Painter</h2>
+      <p class="mt-2 text-xl max-sm:text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius cumque fugiat iusto </p>
+      <div class="text-4xl mt-4 max-sm:text-2xl">
+        <a href=""><i class="fa-brands fa-facebook text-yellow-400 me-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter text-yellow-400 me-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+        <a href=""><i class="fa-brands fa-instagram text-yellow-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="w-[330px] h-[500px] max-sm:h-[400px] max-sm:w-[300px] relative worker4 rounded-b-full">
+    <div class="absolute bottom-10 text-center">
+      <h1 class="text-4xl font-bold max-sm:text-3xl">David John</h1>
+      <h2 class="text-yellow-400 text-3xl mt-2 font-bold max-sm:text-2xl">Carpenter</h2>
+      <p class="mt-2 text-xl max-sm:text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius cumque fugiat iusto </p>
+      <div class="text-4xl mt-4 max-sm:text-2xl">
+        <a href=""><i class="fa-brands fa-facebook text-yellow-400 me-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter text-yellow-400 me-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+        <a href=""><i class="fa-brands fa-instagram text-yellow-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-1000 hover:text-cyan-500 ..."></i></a>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Reviews -->
+<h1 class="mt-20 text-5xl max-md:text-3xl text-center font-bold max-sm:text-2xl">Reviews Of Our Customers</h1>
+
+<div class="grid grid-cols-4  mt-20 max-lg:hidden mx-3 overflow-hidden">
+  <div class=" h-72 bg-[url('https://www.procore.com/jobsite/wp-content/uploads/2022/12/iStock-1250628455.jpg')] bg-cover"  data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500"></div>
+  <div class=" bg-yellow-400 flex justify-center items-center " data-aos="fade-down"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center ">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  <div class=" h-72 bg-[url('https://images.squarespace-cdn.com/content/v1/5e31037e2919dc41b726b899/1580271816564-U0JMNZF1O1PW90QGI1WH/builder-shaking-hands-with-customer.jpg')] bg-cover max-sm:mt-8"  data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500"></div>
+  <div class=" bg-black text-white flex justify-center items-center" data-aos="fade-down"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center ">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  <div class=" bg-yellow-400 flex justify-center items-center" data-aos="fade-up"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  <div class="h-72 bg-[url('https://assets.keap.com/image/upload/c_scale,w_600/v1518569103/happy_customer_yvxveg.jpg')] bg-cover"  data-aos="fade-up"
+  data-aos-easing="linear"
+  data-aos-duration="1500"></div>
+  <div class=" bg-black text-white flex justify-center items-center" data-aos="fade-up"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  <div class="h-72 bg-[url('https://www.crexendo.com/wp-content/uploads/2023/07/AdobeStock_291613526_2000px-1024x682.jpg')] bg-cover"  data-aos="fade-up"
+  data-aos-easing="linear"
+  data-aos-duration="1500"></div>
+  
+</div>
+
+ <!-- lg -->
+<div class="hidden max-lg:grid grid-cols-2 mt-20 max-sm:hidden mx-3 overflow-hidden">
+  <div class=" h-72 bg-[url('https://www.procore.com/jobsite/wp-content/uploads/2022/12/iStock-1250628455.jpg')] bg-cover"  data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500"></div>
+  <div class=" bg-yellow-400 flex justify-center items-center " data-aos="fade-down"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  
+  <div class=" bg-black text-white  flex justify-center items-center" data-aos="fade-down"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center ">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  <div class=" h-72 bg-[url('https://images.squarespace-cdn.com/content/v1/5e31037e2919dc41b726b899/1580271816564-U0JMNZF1O1PW90QGI1WH/builder-shaking-hands-with-customer.jpg')] bg-cover max-sm:mt-8"  data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500">
+</div>
+<div class="h-72 bg-[url('https://assets.keap.com/image/upload/c_scale,w_600/v1518569103/happy_customer_yvxveg.jpg')] bg-cover"  data-aos="fade-up"
+  data-aos-easing="linear"
+  data-aos-duration="1500">
+</div>
+  <div class=" bg-yellow-400 flex justify-center items-center" data-aos="fade-up"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  
+  <div class=" bg-black text-white flex justify-center items-center" data-aos="fade-up"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  <div class="h-72 bg-[url('https://www.crexendo.com/wp-content/uploads/2023/07/AdobeStock_291613526_2000px-1024x682.jpg')] bg-cover"  data-aos="fade-up"
+  data-aos-easing="linear"
+  data-aos-duration="1500">
+</div>
+</div>
+<!-- sm -->
+<div class="hidden max-sm:grid grid-cols-1  mt-20 mx-3 overflow-hidden">
+  <div class=" h-72 bg-[url('https://www.procore.com/jobsite/wp-content/uploads/2022/12/iStock-1250628455.jpg')] bg-cover"  data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500"></div>
+  <div class=" bg-yellow-400 flex justify-center items-center " data-aos="fade-down"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center max-sm:text-sm">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  <div class=" h-72 bg-[url('https://images.squarespace-cdn.com/content/v1/5e31037e2919dc41b726b899/1580271816564-U0JMNZF1O1PW90QGI1WH/builder-shaking-hands-with-customer.jpg')] bg-cover max-sm:mt-8"  data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500">
+</div>
+  <div class=" bg-blue-400  flex justify-center items-center" data-aos="fade-down"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center max-sm:text-sm ">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  
+<div class="h-72 bg-[url('https://assets.keap.com/image/upload/c_scale,w_600/v1518569103/happy_customer_yvxveg.jpg')] bg-cover max-sm:mt-8"  data-aos="fade-up"
+  data-aos-easing="linear"
+  data-aos-duration="1500">
+</div>
+  <div class=" bg-cyan-100 flex justify-center items-center" data-aos="fade-up"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center max-sm:text-sm">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  <div class="h-72 bg-[url('https://www.crexendo.com/wp-content/uploads/2023/07/AdobeStock_291613526_2000px-1024x682.jpg')] bg-cover max-sm:mt-8"  data-aos="fade-up"
+  data-aos-easing="linear"
+  data-aos-duration="1500"></div>
+  <div class=" bg-black text-white flex justify-center items-center" data-aos="fade-up"
+  data-aos-anchor-placement="top-center" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <p class="text-center max-sm:text-sm">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ea sed temporibus molestias molestiae fugiat facere quisquam ducimus, neque necessitatibus error sapiente perferendis recusandae asperiores, esse cupiditate voluptatem mollitia? Odio."</p>
+  </div>
+  
+  
+  
+</div> 
+
+<!-- E-mail phone messege -->
+<div class="grid grid-cols-3  justify-center bg-gradient-to-b from-white to-blue-500 py-10 mt-20 max-lg:grid-cols-2 max-md:grid-cols-1 max-md:space-y-7" id="contact">
+  <div class="text-center flex flex-col justify-center items-center" data-aos="zoom-in" data-aos-easing="linear"
+  data-aos-duration="1500">
+    <h1 class="text-2xl font-bold max-sm:text-xl">E-mail Us</h1>
+    <p class="text-xl mt-3 max-sm:text-sm">Email us using our simple form and <br> we'll respond within working days.</p>
+    <input type="text" placeholder="Enter a valid E-mail" class="ps-2 pe-16 text-xl max-sm:text-sm py-4 mt-6"> <br>
+    <button class=" border-2  py-4 px-32 max-sm:px-24 max-sm:text-sm bg-yellow-400 border-yellow-400 hover:bg-black hover:text-white hover:border-black">SUBMIT</button>
+  
+  </div>
+  <div class="text-center flex flex-col justify-center items-center" data-aos="zoom-in" data-aos-easing="linear"
+  data-aos-duration="2500">
+    <i class="fa-brands fa-whatsapp text-7xl text-green-600"></i>
+    <h1 class="text-2xl font-bold mt-3 max-sm:text-xl">Whatsapp Support</h1>
+    <p class="text-xl mt-4 max-sm:text-sm">Add us on WhatsApp & send queries <br> for instant reply.</p>
+    <button class=" border-2  py-4 px-[100px] max-sm:px-[70px] max-sm:text-sm bg-yellow-400 border-yellow-400 hover:bg-black hover:text-white hover:border-black mt-4">+12-534-249-78</button>
+  </div>
+  <div class="text-center flex flex-col justify-center items-center" data-aos="zoom-in" data-aos-easing="linear"
+  data-aos-duration="3000">
+    <i class="fa-solid fa-square-phone text-7xl text-green-600"></i>
+    <h1 class="text-2xl font-bold mt-3 max-sm:text-xl">Call Now</h1>
+    <p class="text-xl mt-4 max-sm:text-sm">The fastest way to get <br> in call with an Expert</p>
+    <button class=" border-2  py-4 px-[100px] max-sm:px-[70px] max-sm:text-sm bg-yellow-400 border-yellow-400 hover:bg-black hover:text-white hover:border-black mt-4">+14-454-345-98</button>
+  </div>
+</div>
+<!-- Footer -->
+<div class="grid grid-cols-4   bg-blue-500 max-sm:grid-cols-2 py-10">
+  <div>
+    <img src="./black-and-yellow-helmet-and-gear-construction-logo-image-Free-Vector-removebg-preview.png" class="w-24 h-20" alt="">
+    <p class="ms-5 max-sm:text-sm">&copy; All Rights are Reversed</p>
+  </div>
+  <div class="flex flex-col items-center">
+    <ul class="space-y-6 mt-3">
+      <li class="text-xl font-bold"><a href="">Features</a></li>
+      <li><a href="">Cool stuff</a></li>
+      <li><a href="">Random feature</a></li>
+      <li><a href="">Team feature</a></li>
+      <li><a href="">Last time</a></li>
+    </ul>
+  </div>
+  <div class="flex flex-col items-center max-sm:items-start max-sm:ms-5">
+    <ul class="space-y-6 mt-3">
+      <li class="text-xl font-bold"><a href="">Privacy</a></li>
+      <li><a href="">Policy</a></li>
+      <li><a href="">Terms</a></li>
+      <li><a href="">Security</a></li>
+      <li><a href="">FAQ</a></li>
+    </ul>
+  </div>
+  <div class="flex flex-col items-center">
+    <ul class="space-y-6 mt-3">
+      <li class="text-xl font-bold "><a href="">Community</a></li>
+      <li><a href="">Help</a></li>
+      <li><a href="">Team</a></li>
+      <li><a href="">Location</a></li>
+      <li><a href="">Function</a></li>
+    </ul>
+  </div>
+
+</div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
